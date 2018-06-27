@@ -41,7 +41,6 @@ public class keyboradModeSwitcher : MonoBehaviour {
                 foreach (var key in allKeys) {
                     key.GetComponent<LayoutElement>().preferredWidth = 30;
                 }
-
                 break;
             default:
                 break;

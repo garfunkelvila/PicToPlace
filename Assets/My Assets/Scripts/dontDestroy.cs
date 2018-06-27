@@ -16,5 +16,6 @@ public class dontDestroy : MonoBehaviour {
             Destroy(this.gameObject);
 
         DontDestroyOnLoad(this.gameObject);
+        Debug.Log("Application Version : " + Application.version);
     }
 }

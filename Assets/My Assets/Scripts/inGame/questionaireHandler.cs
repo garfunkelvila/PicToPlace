@@ -242,8 +242,6 @@ public class questionaireHandler : MonoBehaviour {
 
 		//Debug.Log(_Questions.Length);
 		//Debug.Log(_Images.Length);
-
-
         do {
             // because PlayerPrefs dont support boolean, I used int, 0 for un-answerd and 1 for answered;
             if (PlayerPrefs.GetInt(_Questions[i]) == 0) {

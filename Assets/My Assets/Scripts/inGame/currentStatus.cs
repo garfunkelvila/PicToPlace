@@ -247,7 +247,7 @@ public class currentStatus : MonoBehaviour {
         //keys = GetComponentInChildren<Button>().interactable = true;
         foreach (GameObject key in gamObj) {
             key.GetComponent<Button>().interactable = true;
-            key.GetComponent<Image>().color = new Color(255, 255, 255);
+            key.GetComponent<Image>().color = new Color32(0,101,8,255);
         }
         gamObj = GameObject.FindGameObjectsWithTag("Blank");
         //keys = GetComponentInChildren<Button>().interactable = true;

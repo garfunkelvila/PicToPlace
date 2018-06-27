@@ -31,7 +31,7 @@ public class keyButtonScript : MonoBehaviour {
             }
         }
 
-        if (isCorrect == false) {
+        if (!isCorrect) {
             GameObject.Find("Correct and Wrong").GetComponent<correcAndWrongSoundScript>().playSound(false);
             //Status.inCrementMistake();
             Status.decrementLives();

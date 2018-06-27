@@ -23,8 +23,9 @@ public class nextStageScript : MonoBehaviour {
                 Dlg.showDialog(inGameDialogHandlerScript.Dialogs.FinishedDialog);
                 return;
             }
-            //if (curStatus.CurrentStage == System.Convert.ToInt32(qHandler.TotalQuestions * 0.75)) {
+            
             if (curStatus.CurrentStage == curStatus.StageNumberToUnlockNext) {
+                // If not yet all answered
                 string Level = PlayerPrefs.GetString("Level");
                 if ((Level == "Luzon")&&(PlayerPrefs.GetInt("Visayas") == 0)) {
                     Dlg.showDialog(inGameDialogHandlerScript.Dialogs.UnlockedDialog);
