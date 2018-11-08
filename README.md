@@ -6,6 +6,7 @@ And second to be functional
 This project if from two persons I helped
 
 I created all of the scripts, Graphics and user flow are by them.
+Questions are stored in series of text file, which are then split into array. Questions are selected randomly and last answer is kept.
 
 Unity 2018
 
